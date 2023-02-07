@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": false,
+  "workspaces": {
+    "packages": [
+      "remote",
+      "host"
+    ]
+  },
+  "scripts": {
+    "dev": "lerna run dev",
+    "build": "lerna run build",
+    "preview": "lerna run preview"
+  },
+  "devDependencies": {
+    "lerna": "^6.4.1"
+  }
+}
